@@ -1,0 +1,67 @@
+@import "../../App.scss";
+
+.box-actions {
+    background-image: url("../../assets/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: grid;
+    background-color: $body-color;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 3fr);
+    padding: 2.5rem;
+    max-height: 90vh;
+    a{
+        text-decoration: none;
+    }
+    
+    .action {
+        background-color: $container-color;
+        position: relative;
+        padding: 3rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0);
+        transition: 0.3s;
+        cursor: pointer;
+        min-height: 250px;
+        &:hover {
+            box-shadow: 0 0px 40px 5px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: $first-color-lighter;
+            font-family: $font-stack;
+            margin-bottom: 8%;
+        }
+        p {
+            color: $first-color-lighter;
+            font-family: $font-text;
+        }
+        .icon {
+            color: $first-color-lighter;
+            size: 100px;
+        }
+    }
+    .disabled{
+        background-color: rgb(202, 202, 202);
+        position: relative;
+        padding: 3rem;
+        border-radius: 0.5rem;
+        cursor: auto;
+        &:hover {
+            box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0);
+        }
+        h2 {
+            color: $container-color;
+            font-family: $font-stack;
+            margin-bottom: 8%;
+        }
+        p {
+            color: $container-color;
+            font-family: $font-text;
+        }
+        .icon {
+            color: $container-color;
+            size: 100px;
+        }
+    }
+}

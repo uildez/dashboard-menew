@@ -1,0 +1,51 @@
+@import "../../App.scss";
+
+.bg-dashboard{
+    background-image: url("../../assets/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 4.5rem;
+}
+
+.navbar {
+    background-color: $container-color;
+    z-index: 1000;
+    box-shadow: 0 0px 40px 5px rgba(0,0,0,.3);
+    .logout {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        color: $first-color-lighter;
+        font-family: $font-stack;
+        padding: 1rem 3rem;
+        
+        &_logo{
+            display: flex;
+            svg{
+                width: 2rem;
+                margin-right: .6rem;
+                filter: invert(-50%) saturate(185%) brightness(190%) contrast(-1%)
+            }
+        }
+
+        .logout__btn {
+            padding: 1em 2rem;
+            background: $first-color-alt;
+            border: none;
+            color: $container-color;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: .3s;
+            &:hover {
+                background: $first-color-lighter;
+            }
+        }
+    }
+}
+
+.user__name {
+    color: $first-color-lighter;
+}

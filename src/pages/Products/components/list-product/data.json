@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "img": "https://yata.ostr.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
+      "nameProduct": "Nome do Produto",
+      "description": "Uma descrição de produto fornece detalhes sobre recursos, indicações, utilizações e benefícios para ajudar a gerar uma venda."
+    },
+    {
+      "id": 2,
+      "img": "https://yata.ostr.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
+      "nameProduct": "Nome do Produto",
+      "description": "Uma descrição de produto fornece detalhes sobre recursos, indicações, utilizações e benefícios para ajudar a gerar uma venda."
+    },
+    {
+      "id": 3,
+      "img": "https://yata.ostr.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
+      "nameProduct": "Nome do Produto",
+      "description": "Uma descrição de produto fornece detalhes sobre recursos, indicações, utilizações e benefícios para ajudar a gerar uma venda."
+    },
+    {
+      "id": 4,
+      "img": "https://yata.ostr.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
+      "nameProduct": "Nome do Produto",
+      "description": "Uma descrição de produto fornece detalhes sobre recursos, indicações, utilizações e benefícios para ajudar a gerar uma venda."
+    },
+    {
+      "id": 5,
+      "img": "https://yata.ostr.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
+      "nameProduct": "Nome do Produto",
+      "description": "Uma descrição de produto fornece detalhes sobre recursos, indicações, utilizações e benefícios para ajudar a gerar uma venda."
+    },
+    {
+      "id": 6,
+      "img": "https://yata.ostr.locaweb.com.br/b1da36362690140b82f2615336181d34f58abf5a5fadf78cb182f5aafb43242e",
+      "nameProduct": "Nome do Produto",
+      "description": "Uma descrição de produto fornece detalhes sobre recursos, indicações, utilizações e benefícios para ajudar a gerar uma venda."
+    }
+  ]

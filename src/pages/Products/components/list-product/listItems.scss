@@ -1,0 +1,124 @@
+@import "../../../../App.scss";
+
+.product {
+    background-color: $container-color;
+    margin-top: 2rem;
+    &-row {
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        gap: 2rem;
+        width: 85vw;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    &-item {
+        padding: 1rem;
+        border-radius: 10px;
+        background-color: #eb8319;
+        min-width: -webkit-fill-available;
+        box-shadow: 0 0px 5px 2px rgba(0, 0, 0, 0.3);
+        min-height: 370px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+        h2 {
+            font-size: 1.3rem;
+            margin: 0.6rem;
+            color: $container-color;
+            font-family: $font-stack;
+            text-align: center;
+        }
+        p {
+            color: $container-color;
+            font-family: $font-text;
+            text-align: justify;
+        }
+    }
+    &-image {
+        border-radius: 10px;
+        overflow: hidden;
+        img {
+            width: 235px;
+            height: 235px;
+            object-fit: cover;
+        }
+    }
+    &-btns {
+        flex-direction: row !important;
+        justify-content: flex-end;
+        margin-top: 1rem;
+        .edit-btn {
+            color: $container-color;
+            margin: 0.3rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.form-style {
+    margin-top: 1rem;
+    form {
+        display: flex;
+        justify-content: space-between;
+        input {
+            min-width: 350px;
+            padding: 15px 0;
+            padding-left: 15px;
+            margin-bottom: 10px;
+            outline: none;
+            border: 1px solid $first-color-lighter;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+    }
+    p {
+        color: $first-color-lighter;
+        font-family: $font-stack;
+        font-weight: 600;
+    }
+    .add-btn {
+        padding: 0.8em 1.5rem;
+        background: $first-color-lighter;
+        border: none;
+        color: $container-color;
+        font-size: 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 0.3s;
+        height: 50px;
+        &:hover {
+            background: $first-color-alt;
+        }
+    }
+}
+
+.product-item {
+    input {
+        padding: 15px;
+        margin-bottom: 10px;
+        outline: none;
+        border: 0px solid #e00606;
+        border-radius: 4px;
+    }
+    .product-btns {
+        gap: 1rem;
+        button {
+            padding: 0.8em 1.5rem;
+            background: #D03E11;
+            border: none;
+            color: $container-color;
+            font-size: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.3s;
+            height: 50px;
+            width: 100%;
+            &:hover {
+                background: #b3330d;
+            }
+        }
+    }
+}
