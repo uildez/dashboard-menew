@@ -5,12 +5,7 @@ import { auth } from '../../firebase';
 import './login.scss';
 import { ReactComponent as Logo } from '../../assets/images/menew-logo.svg';
 
-import { useHistory } from 'react-router-dom';
-
-
-
 const Login = () => {
-    const history = useHistory();
     const [isRegister, setIsRegister] = useState(false);
 
     const [name, setName] = useState("");

@@ -16,3 +16,7 @@ Install React-router-redux:
 Package of Icon React-unicons:
 ### `npm install --save @iconscout/react-unicons`
 
+Rota para a aplicação correta
+### localhost:3000/dashboard
+
+
