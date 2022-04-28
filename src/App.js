@@ -9,7 +9,7 @@ import { auth } from './firebase';
 import './Components/Login/login.scss';
 import { ReactComponent as Logo } from './assets/images/menew-logo.svg';
 
-function App(children) {
+function App() {
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
   const [isRegister, setIsRegister] = useState(false);
@@ -29,11 +29,9 @@ function App(children) {
         dispatch(login({
           id: authUser.uid,
           name: authUser.displayName ? authUser.displayName : authUser.email,
-          pic: authUser.photoURL ? authUser.photoURL : "https://cdn-icons-png.flaticon.com/512/149/149071.png"
         }));
-        return <Redirect to = "/dashboard"/>
       } else {
-        dispatch(logout(children))
+        dispatch(logout())
       }
     })
   }, [])
