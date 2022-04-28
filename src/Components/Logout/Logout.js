@@ -29,7 +29,6 @@ const Logout = () => {
           </div>
         </div>
       </div>
-      
       <AppRoutes />
     </div>
 
