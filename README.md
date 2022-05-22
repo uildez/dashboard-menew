@@ -1,22 +1,35 @@
-## Available Scripts
+# Dashboard Menew
+Interface acessível para consulta de estoque de produtos, clientes, pedidos, suporte entre outras funções.
 
-Iniciate Project with:
-### `npx create-react-app my-app --template redux`
-### `npm start`
+### Link para Acessar Projeto:
+[http://dashboard-menew.vercel.app/]
 
-Install Css Pre-Processor SCSS:
-### `npm install -S node-sass`
+### Features
+- [x]  Cadastrar novos produtos
+- [ ]  Pesquisar pro clientes
+- [ ]  Gerenciar pedidos
+- [ ]  Gerenciar Estoque
+- [ ]  Suporte
+- [ ]  Rastrear entregas
 
-Install Redux-devtools:
-### `npm install @redux-devtools/core`
+### Pré-requisitos
+#### Clone este repositório
+$ git clone
 
-Install React-router-redux:
-### `npm i react-router-redux`
+#### Instale as dependências
+$ yarn
 
-Package of Icon React-unicons:
-### `npm install --save @iconscout/react-unicons`
-
-Rota para a aplicação correta
-### localhost:3000/dashboard
+#### Execute a aplicação em modo de desenvolvimento
+$ yarn dev
 
 
+### 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+- [React](https://pt-br.reactjs.org/)
+- [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start)
+- [SASS](https://sass-lang.com/documentation)
+- [Redux](https://redux.js.org/introduction/getting-started)
+
+<h4 align="center"> 
+	🚧 Dashboard Menew 🚀 Em construção...  🚧
+</h4>
